@@ -1,0 +1,103 @@
+<%- include ('header') -%> 
+
+<div class="container-fluid ">
+        
+    <div class="no-pdding login-box">
+        <div class="row no-margin w-100 bklmj">
+            <div class="col-lg-6 col-md-6 log-det">
+
+                
+                
+                <img src="/static1/images/ensajlogo.png" style="height: 17%;width: 40%">
+
+                <br>
+                
+               
+                <div class="row no-margin past">
+                    <p>Vous avez déjà un compte? <span> S'identifier</span> </p>
+                </div>
+
+                
+                <div class="text-box-cont">
+                    <form action="/addStudent" method="post" enctype="multipart/form-data">
+
+
+                        <div class="input-group mb-3">
+                       
+                            <input type="text" class="form-control" placeholder="Nom" aria-label="Username" aria-describedby="basic-addon1" name="nom" required>
+                        </div>
+
+
+                    <div class="input-group mb-3">
+                       
+                        <input type="text" class="form-control" placeholder="Prenom" aria-label="Username" aria-describedby="basic-addon1" name="prenom" required>
+                    </div>
+                    <div class="input-group mb-3">
+                       
+                        <input type="text" class="form-control" placeholder="CIN" aria-label="Cin" aria-describedby="basic-addon1" name="cin" required>
+                    </div>
+                    <div class="input-group mb-3">
+                       
+                        <input type="text" class="form-control" placeholder="CNE" aria-label="Cne" aria-describedby="basic-addon1" name="cne" required>
+                    </div>
+                    <div class="input-group mb-3">
+                       
+                        <select name="filiere" class="form-control">
+                            <option value="ISIC-1">ISIC-1</option>
+                            <option value="ISIC-2">ISIC-2</option>
+                            <option value="2ITE-1">2ITE-1</option>
+                            <option value="2ITE-2">2ITE-2</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                       
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" name="email" required>
+                    </div>
+                     <div class="input-group mb-3">
+                        
+                        <input type="password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1" name="password" required>
+                    </div>
+                    <!-- <div class="row no-margin">
+                        <p class="forget-p">Forget Password ?</p>
+                    </div> -->
+                    <div class="form-group">
+                       
+                        <input type="file" class="form-control" placeholder="Selectionner une image" aria-label="Username" aria-describedby="basic-addon1" name="image">
+                    </div>
+                    <div class="right-bkij mb-3">
+                        <button class="btn btn-success btn-round">S'inscrire</button>
+                    </div>
+
+                </form>
+                <br> 
+                    <!-- <div class="row linkoi">
+                      <div class="col-sm-5">
+                          <p>Or login with</p>
+                      </div>
+                       <div class="col-sm-7">
+                           <ul>
+                                <li><i class="fab fa-facebook-f "></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                
+                            </ul>
+                       </div>
+                    </div>  -->
+                </div>
+                
+                 
+
+            </div>
+            <div class="col-lg-6 col-md-6 box-de">
+                <div class="ditk-inf">
+                    <h3 class="w-100">&nbsp;&nbsp;Espace Etudiant </h3>
+                    <p>Connectez-vous à votre compte 
+                         <br>en cliquant sur s'identifier</p>
+                    <a href="/create">
+                    <button type="button" class="btn btn-outline-light">S'identifier</button>
+                </a>
+                </div>
+            </div>
+         </div>
+    </div>
+</div> 
+<%- include ('footer') -%> 

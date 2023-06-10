@@ -1,0 +1,27 @@
+{
+  "name": "tri",
+  "version": "1.0.0",
+  "description": "Projet qui consiste a développer une plateforme de gestion des services administratifs de l'ENSAJ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Mohamed Laasri",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^6.9.96",
+    "bootstrap-icons": "^1.9.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
