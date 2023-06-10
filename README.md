@@ -17,7 +17,7 @@ Gestion des flux :
 -Gestion des utilisateurs (Admin, Enseignat, Etudiant)
 -Gestion des notes
 -Gestion des demandes de recorrection ...
--Gestion des demandes des documents administratifs(Certificat de scolarité, Relevé de notes ..)
+-Gestion des demandes des documents administratifs(Certificat de scolarité, Relevé de notes ...)
 
 
 ### Conception UML
