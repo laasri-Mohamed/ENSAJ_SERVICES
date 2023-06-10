@@ -46,3 +46,4 @@ Voici l'architecture générale de notre application
 # Aperçu de la plateforme web
   Pour voir les détails complètes de notre plateforme web, veillez regarder cette vidéo démonstrative :
 - https://www.youtube.com/watch?v=b9fpKjN_WlM
+- https://ensajservices.adaptable.app/
